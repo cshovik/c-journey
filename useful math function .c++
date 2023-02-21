@@ -30,7 +30,7 @@ int main(){
     c= ceil(-2.99); //2.99 -- output :3
     std:: cout<<c<<'\n'; //-2.99 --output:-2
 
-    f=floor(2.99);//2.99 -- output:-2
+    f=floor(2.99);//2.99 -- output: 2
     std::cout<<f;//-2.99 -- output: -3
 
 
