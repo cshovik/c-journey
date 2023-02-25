@@ -1,3 +1,5 @@
+
+
 #include <bits/stdc++.h>
 #include <iostream>
 #include<cmath>
@@ -5,6 +7,22 @@
 
 int main(){
   std::string name;
+  string fullName;
+  string FullName;
+  
+  std::cout << "Type your full name: ";   //without getline it will print only single word
+  std::cin >> FullName;
+  std::cout << "Your name is: " << FullName;
+ // output-
+  // Type your full name: John Doe
+  // Your name is: John
+  
+  std::cout << "Type your full name: ";
+  std::getline (std::cin, fullName);          //getline helps to print line of text
+  std:: cout << "Your name is: " << fullName;
+  //output-
+  // Type your full name: John Doe
+  // Your name is: John Doe
 
   std::cout<< "Enter your name: ";
   std::getline(std::cin,name);
